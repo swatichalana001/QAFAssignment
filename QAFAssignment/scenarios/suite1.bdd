@@ -1,0 +1,13 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given start the test
+	Then select lowest price phone
+	Then verify product details
+	Then add to cart
+	Then verify product added to the cart
+	
+END
+

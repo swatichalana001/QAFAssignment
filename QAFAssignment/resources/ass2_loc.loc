@@ -1,0 +1,18 @@
+electronics = {\"locator\":\"xpath=//a[@title='Electronics']\",\"desc\":\"click on electronics\"}
+apple = {\"locator\":\"xpath=//a[@title='Apple']\",\"desc\":\"click on apple\"}
+ipad = {\"locator\":\"xpath=(//div[contains(@class,'_3b7jyH')])[2]\",\"desc\":\"click on ipad\"}
+lowprice = {\"locator\":\"xpath=//li[contains(@class,'_2Ylh8t')][2]\",\"desc\":\"click on price low to high\"}
+firstphone = {\"locator\":\"xpath=//a[contains(@href,'/viewcart?otracker=Cart_Icon_Click')]\",\"desc\":\"click on first phone\"}
+addtocart = {\"locator\":\"xpath=//button[text()='ADD TO CART']\",\"desc\":\"add to cart\"}
+continueshopping = {\"locator\":\"xpath=//li[contains(@class,'_2Ylh8t')][2]\",\"desc\":\"continue shopping button\"}
+cart = {\"locator\":\"xpath=//a[contains(@href,'/viewcart?otracker=Cart_Icon_Click')]\",\"desc\":\"check cart\"}
+all.product.main.div = {\"locator\":\"xpath=//div[contains(@class,'_3T_wwx')]/div\"}
+product.component.name = {\"locator\":\"xpath=.//div[contains(@class,'col col-7-12')]/div\",\"desc\":\"Product Name\"}
+product.component.price = {\"locator\":\"xpath=.//div[contains(@class,'_1vC4OE _2rQ-NK')]\",\"desc\":\"Product Price\"}
+product.sort = {\"locator\":\"xpath=//ul[contains(@class,'_3fPYHw')]/li[contains(text(),'%s')]\",\"desc\":\"Product Sotring Based on Passe\"}
+add.to.cart = {\"locator\":\"xpath=//button[text()='ADD TO CART']\"}
+select.category.title = {\"locator\":\"xpath=//a[@title='%s']\",\"desc\":\"Category selection\"}
+select.subcategory.title = {\"locator\":\"xpath=//a[@title='%s']\",\"desc\":\"SubCategory Selection\"}
+popup.close.btn = {\"locator\":\"xpath=//button[@class='_2AkmmA _29YdH8']\",\"desc\":\"Pop up close Button\"}
+product.selection = {\"locator\":\"xpath=//p[contains(text(), '%s')]\",\"desc\":\"prodoct selection\"}
+search.loc = {\"locator\":\"xpath=//input[contains(@title,\\\"Search for Products\\\")]\"}
