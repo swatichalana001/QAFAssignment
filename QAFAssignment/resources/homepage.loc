@@ -1,0 +1,7 @@
+continueshopping = {\"locator\":\"xpath=//li[contains(@class,'_2Ylh8t')][2]\",\"desc\":\"continue shopping button\"}
+product.component.name = {\"locator\":\"xpath=.//div[contains(@class,'col col-7-12')]/div\",\"desc\":\"Product Name\"}
+product.component.price = {\"locator\":\"xpath=.//div[contains(@class,'_1vC4OE _2rQ-NK')]\",\"desc\":\"Product Price\"}
+popup.close.btn = {\"locator\":\"xpath=html/body/div[2]/div/div/button\",\"desc\":\"Pop up close Button\"}
+lnk.mainmenuitem.homepage = {\"locator\":\"xpath=//a[@title='%s']\",\"desc\":\"click on electronics\"}
+lnk.submenu.homepage = {\"locator\":\"xpath=//a[@title='%s']\",\"desc\":\"click on apple\"}
+popup.mainmenu.homepage = {\"locator\":\"xpath=.//*[@id='container']/div/header/div[3]/div/ul/li[1]/ul/li/ul/li[1]\",\"desc\":\"check the popup opens\"}

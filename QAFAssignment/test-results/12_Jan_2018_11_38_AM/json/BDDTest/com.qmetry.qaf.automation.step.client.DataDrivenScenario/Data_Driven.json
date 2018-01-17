@@ -1,0 +1,182 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchFlipkart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "deleteAllCookies",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1112
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4791
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1174
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectFromMainMenu",
+      "args": [
+        "[${categoryname}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@title='Electronics'], using=xpath}"
+          ],
+          "result": "id: 0.09912604221804688-1",
+          "subLogs": [],
+          "duration": 87
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.09912604221804688-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 108
+        },
+        {
+          "commandName": "mouseClick",
+          "args": [
+            "{button=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 31
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyMainMenuSelected",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.//*[@id='container']/div/header/div[3]/div/ul/li[1]/ul/li/ul/li[1], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 54
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectSubcategory",
+      "args": [
+        "[${subcategoryname}, ${categoryname}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@title='Apple'], using=xpath}"
+          ],
+          "result": "id: 0.09912604221804688-2",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[@title='Apple']",
+            "{\"id\":\"0.09912604221804688-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 129
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySubCategorySelected",
+      "args": [
+        "[${subcategoryname}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=(//div[contains(@class,'_3b7jyH')])[2], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 206
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I launch flipkart app",
+      "type": "TestStepPass",
+      "duration": 11131,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I open Electronics from main menu",
+      "type": "TestStepPass",
+      "duration": 1253,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I should see main menu expanded",
+      "type": "TestStepPass",
+      "duration": 69,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I select Apple from Electronics",
+      "type": "TestStepPass",
+      "duration": 204,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I should see all items under ${subcategoryname}",
+      "type": "TestStepPass",
+      "duration": 211,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

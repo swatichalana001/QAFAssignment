@@ -1,0 +1,37 @@
+11:38:41 scenario.file.loc[Ljava.lang.String;@4e91d63f
+11:38:41 loading BDD file: scenarios/suite1.bdd
+11:38:41 total test found: 2
+11:38:41 
+
+Executing scenario: Data Driven - XML Data Driven
+11:38:41 Test Data{categoryname=Electronics, subcategoryname=Apple, productname=iPad, productindex=0}
+11:38:41 pkg: com.qmetry.qaf.automation.step
+11:38:41 pkg: com.ass2
+11:38:41 Found duplicate step to load [] with [lower] prority then []
+11:38:41 Invoking Teststep: Given I launch flipkart app
+11:38:52 Completed Teststep: Given I launch flipkart app
+11:38:52 Invoking Teststep: When I open ${categoryname} from main menu with arguments: [${categoryname}]
+11:38:54 Completed Teststep: When I open Electronics from main menu with arguments: [${categoryname}]
+11:38:54 Invoking Teststep: Then I should see main menu expanded
+11:38:54 Completed Teststep: Then I should see main menu expanded
+11:38:54 Invoking Teststep: When I select ${subcategoryname} from ${categoryname} with arguments: [${subcategoryname}, ${categoryname}]
+11:38:54 Completed Teststep: When I select Apple from Electronics with arguments: [${subcategoryname}, ${categoryname}]
+11:38:54 Invoking Teststep: Then I should see all items under ${subcategoryname} with arguments: [${subcategoryname}]
+11:38:54 Completed Teststep: Then I should see all items under ${subcategoryname} with arguments: [${subcategoryname}]
+11:38:54 Competed scenario: Data Driven with status SUCESS
+11:38:54 
+
+Executing scenario: Component - Scenario2
+11:38:54 Invoking Teststep: Given When I click on ipad
+11:38:58 Completed Teststep: Given When I click on ipad
+11:38:58 Invoking Teststep: Then I should see list of ipad products
+11:39:00 Completed Teststep: Then I should see list of ipad products
+11:39:00 Invoking Teststep: When I select first product
+11:39:00 Completed Teststep: When I select first product
+11:39:00 Invoking Teststep: Then I should see product detail page
+11:39:05 Completed Teststep: Then I should see product detail page
+11:39:05 Invoking Teststep: When I add the product to cart
+11:39:05 Completed Teststep: When I add the product to cart
+11:39:05 Invoking Teststep: Then I should see the added product in cart
+11:39:07 Completed Teststep: Then I should see the added product in cart
+11:39:07 Competed scenario: Component with status SUCESS

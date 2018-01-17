@@ -1,0 +1,4 @@
+lnk.applyfilter.productlistpage = {\"locator\":\"xpath=//li[contains(@class,'_2Ylh8t')][2]\",\"desc\":\"click on low to high\"}
+lnk.productname.productlistpage = {\"locator\":[\"css=._3wU53n\",\"css=._325-ji\"],\"desc\":\"store name of first phone\"}
+lnk.productprice.productlistpage = {\"locator\":[\"css=._1vC4OE\",\"css=.I8hxu4\"],\"desc\":\"store price of first phone\"}
+results.products.productlistpage = {\"locator\":\"css=._1UoZlX\",\"desc\":\"product list\"}

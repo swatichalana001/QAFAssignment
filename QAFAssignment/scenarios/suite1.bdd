@@ -1,13 +1,45 @@
 
 
-SCENARIO: SampleTest
-META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+#SCENARIO: SampleTest
+#META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
 	
-	Given start the test
-	Then select lowest price phone
-	Then verify product details
-	Then add to cart
-	Then verify product added to the cart
+	
+	 
+	#Given I launch flipkart app
+ 	#When I open 'Electronics' from main menu
+	#Then I should see main menu expanded
+	#When I select 'Apple' from 'Electronics'
+	#Then I should see all items under 'Apple'
+	
+	
+	
+#END
+
+
+
+SCENARIO: Data Driven
+META-DATA: {"description":"XML Data Driven","groups":["P1","P2","SMOKE"],"key":"product.categories"}
+	
+	Given I launch flipkart app
+ 	When I open ${categoryname} from main menu
+	Then I should see main menu expanded
+	When I select ${subcategoryname} from ${categoryname}
+	Then I should see all items under ${subcategoryname}
 	
 END
 
+
+
+SCENARIO: Component
+META-DATA: {"description":"Scenario2"}
+	
+	Given When I click on ipad
+	Then I should see list of ipad products
+	When I select first product
+	Then I should see product detail page
+	When I add the product to cart 
+	Then I should see the added product in cart
+	
+	
+	
+END

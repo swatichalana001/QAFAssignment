@@ -1,0 +1,35 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "Electronics",
+          "subcategoryname": "Apple",
+          "productname": "iPad",
+          "productindex": "0"
+        }
+      ],
+      "metaData": {
+        "description": "XML Data Driven",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "key": "product.categories",
+        "lineNo": 20,
+        "name": "Data Driven",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "Data_Driven",
+        "sign": "scenarios.suite1.bdd.Data Driven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1515736996228,
+      "duration": 25853,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

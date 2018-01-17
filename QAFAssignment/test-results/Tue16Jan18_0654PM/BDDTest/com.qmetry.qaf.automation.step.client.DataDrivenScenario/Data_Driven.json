@@ -1,0 +1,143 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchPage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "deleteAllCookies",
+          "args": [
+            "{}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1084
+        },
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5903
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1195
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectFromMainMenu",
+      "args": [
+        "[${categoryname}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[@title='Electronics'], using=xpath}"
+          ],
+          "result": "id: 0.25018430265738445-1",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.25018430265738445-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 61
+        },
+        {
+          "commandName": "mouseClick",
+          "args": [
+            "{button=0}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I should see main menu expanded",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When I select ${subcategoryname} from ${categoryname}",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I should see all items under ${subcategoryname}",
+      "args": [
+        "[${subcategoryname}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I launch flipkart app",
+      "type": "TestStepPass",
+      "duration": 14271,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I open Electronics from main menu",
+      "type": "TestStepPass",
+      "duration": 1321,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I should see main menu expanded :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I select ${subcategoryname} from ${categoryname}",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I should see all items under ${subcategoryname}",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then I should see main menu expanded@scenarios/suite1.bdd#25 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Then I should see main menu expanded(scenarios/suite1.bdd:25)\r\n"
+}

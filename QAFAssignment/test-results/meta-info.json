@@ -1,0 +1,44 @@
+{
+  "reports": [
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/Wed17Jan18_1033AM",
+      "startTime": 1516165411222
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/Tue16Jan18_0659PM",
+      "startTime": 1516109372786
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/Tue16Jan18_0654PM",
+      "startTime": 1516109064853
+    },
+    {
+      "name": "FlipkartAss.scenarios.suite1.bdd",
+      "dir": "test-results/16_Jan_2018_06_52_PM/json",
+      "startTime": 1516108957133
+    },
+    {
+      "name": "Ass2.scenarios.suite1.bdd",
+      "dir": "test-results/12_Jan_2018_11_38_AM/json",
+      "startTime": 1515737321303
+    },
+    {
+      "name": "Ass2.scenarios.suite1.bdd",
+      "dir": "test-results/12_Jan_2018_11_36_AM/json",
+      "startTime": 1515737167185
+    },
+    {
+      "name": "Ass2.scenarios.suite1.bdd",
+      "dir": "test-results/12_Jan_2018_11_33_AM/json",
+      "startTime": 1515736996175
+    },
+    {
+      "name": "Ass2.scenarios.suite1.bdd",
+      "dir": "test-results/12_Jan_2018_11_31_AM/json",
+      "startTime": 1515736865879
+    }
+  ]
+}

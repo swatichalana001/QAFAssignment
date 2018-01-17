@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="7" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I launch flipkart app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I open Electronics from main menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see main menu expanded</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected check the popup opens present : Actual check the popup opens present <a href="img/Data_Driven_1vlonaxnifok442512.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I select Apple from Electronics</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see all items under ${subcategoryname}</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given When I click on ipad</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see list of ipad products</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="img/Component_7fnu2audc23842513.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹23,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹23,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹25,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹59,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹37,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 128 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹35,690</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹37,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹49,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹83,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹72,100</div><div  class="info"><span class="info-label">I </span>NameApple iPad mini 4 128 GB 7.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹33,800</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹60,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹38,490</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹37,600</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹95,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹60,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹83,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹54,999</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹72,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹91,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹91,900</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I select first product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see product detail page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart productpage validation
+Expected: a string containing "Apple iPad 3"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only Price in India - Buy Apple iPad 32 GB 9.7 inch with Wi-Fi Only Space Grey 32 Online - Apple : Flipkart.com" <a href="img/Component_mb8l11whjnkl42514.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I add the product to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see the added product in cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart product Name In Cart page
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="img/Component_1b2dgni2zorn742515.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Flipkart Price of Cart product
+Expected: a string containing "₹23,900"
+     Actual: was "₹23,900" <a href="img/Component_1i0xtnbkxd20h42516.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="40499" started-at="2018-01-17T05:03:31Z" finished-at="2018-01-17T05:04:11Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.suite1.bdd.Data Driven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Data Driven" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="scenarios.suite1.bdd.Data Driven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Data Driven" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P2 -->
+      <group name="SMOKE">
+        <method signature="scenarios.suite1.bdd.Data Driven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Data Driven" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="40499" started-at="2018-01-17T05:03:31Z" finished-at="2018-01-17T05:04:11Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="Component" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-01-17T10:33:55Z" finished-at="2018-01-17T10:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Component()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="Component" name="Component" duration-ms="16184" started-at="2018-01-17T10:33:55Z" description="Scenario2" finished-at="2018-01-17T10:34:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given When I click on ipad</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see list of ipad products</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="img/Component_7fnu2audc23842513.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹23,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹23,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹25,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹59,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹37,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 128 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹35,690</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹37,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹49,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹83,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹72,100</div><div  class="info"><span class="info-label">I </span>NameApple iPad mini 4 128 GB 7.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹33,800</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹60,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹38,490</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹37,600</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹95,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹60,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹83,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹54,999</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹72,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹91,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹91,900</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I select first product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see product detail page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart productpage validation
+Expected: a string containing "Apple iPad 3"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only Price in India - Buy Apple iPad 32 GB 9.7 inch with Wi-Fi Only Space Grey 32 Online - Apple : Flipkart.com" <a href="img/Component_mb8l11whjnkl42514.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I add the product to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see the added product in cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart product Name In Cart page
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="img/Component_1b2dgni2zorn742515.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Flipkart Price of Cart product
+Expected: a string containing "₹23,900"
+     Actual: was "₹23,900" <a href="img/Component_1i0xtnbkxd20h42516.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Component -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="Component" name="setup" is-config="true" duration-ms="0" started-at="2018-01-17T10:33:55Z" finished-at="2018-01-17T10:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="Component" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-17T10:34:11Z" finished-at="2018-01-17T10:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Component status=SUCCESS method=scenarios.suite1.bdd.Component()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given When I click on ipad</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see list of ipad products</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="img/Component_7fnu2audc23842513.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹23,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹23,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹25,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹59,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 32 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹37,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad 128 GB 9.7 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹35,690</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹37,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹49,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹83,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹72,100</div><div  class="info"><span class="info-label">I </span>NameApple iPad mini 4 128 GB 7.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹33,800</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹60,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹38,490</div><div  class="info"><span class="info-label">I </span>NameApple iPad 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹37,600</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 256 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹61,500</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹95,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 64 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹60,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹83,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 32 GB 9.7 inch with Wi-Fi+4G</div><div  class="info"><span class="info-label">I </span>Price₹54,999</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 10.5 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹72,990</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹91,900</div><div  class="info"><span class="info-label">I </span>NameApple iPad Pro 512 GB 12.9 inch with Wi-Fi Only</div><div  class="info"><span class="info-label">I </span>Price₹91,900</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I select first product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see product detail page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart productpage validation
+Expected: a string containing "Apple iPad 3"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only Price in India - Buy Apple iPad 32 GB 9.7 inch with Wi-Fi Only Space Grey 32 Online - Apple : Flipkart.com" <a href="img/Component_mb8l11whjnkl42514.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I add the product to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see the added product in cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Flipkart product Name In Cart page
+Expected: a string containing "Apple iPad 32 GB 9.7 inch with Wi-Fi Only"
+     Actual: was "Apple iPad 32 GB 9.7 inch with Wi-Fi Only" <a href="img/Component_1b2dgni2zorn742515.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Flipkart Price of Cart product
+Expected: a string containing "₹23,900"
+     Actual: was "₹23,900" <a href="img/Component_1i0xtnbkxd20h42516.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="Component" name="afterClass" is-config="true" duration-ms="4" started-at="2018-01-17T10:34:11Z" finished-at="2018-01-17T10:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="setupSuit" is-config="true" duration-ms="15" started-at="2018-01-17T10:33:31Z" finished-at="2018-01-17T10:33:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="setupTest" is-config="true" duration-ms="16" started-at="2018-01-17T10:33:31Z" finished-at="2018-01-17T10:33:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="setup" is-config="true" duration-ms="0" started-at="2018-01-17T10:33:31Z" finished-at="2018-01-17T10:33:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method name="Data Driven" test-instance-name="Data Driven" signature="Data Driven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="23848" finished-at="2018-01-17T10:33:55Z" started-at="2018-01-17T10:33:31Z" data-provider="scenariodp" description="XML Data Driven">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{categoryname=Electronics, subcategoryname=Apple, productname=iPad, productindex=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I launch flipkart app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I open Electronics from main menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see main menu expanded</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected check the popup opens present : Actual check the popup opens present <a href="img/Data_Driven_1vlonaxnifok442512.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I select Apple from Electronics</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see all items under ${subcategoryname}</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Data Driven -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-01-17T10:33:31Z" finished-at="2018-01-17T10:33:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-17T10:33:55Z" finished-at="2018-01-17T10:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Data Driven status=SUCCESS method=scenarios.suite1.bdd.Data Driven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I launch flipkart app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I open Electronics from main menu</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see main menu expanded</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected check the popup opens present : Actual check the popup opens present <a href="img/Data_Driven_1vlonaxnifok442512.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I select Apple from Electronics</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I should see all items under ${subcategoryname}</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-17T10:33:55Z" finished-at="2018-01-17T10:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="afterTest" is-config="true" duration-ms="263" started-at="2018-01-17T10:34:11Z" finished-at="2018-01-17T10:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Data Driven" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-01-17T10:34:12Z" finished-at="2018-01-17T10:34:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7a5baa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

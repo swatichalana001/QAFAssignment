@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 16 18:52:37 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47866 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Component()'><b>Component</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Component)<br>Test method: Scenario2<br/>
+<a href="#Output-1545077099" onClick='toggleBox("Output-1545077099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1545077099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1545077099">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given When I click on ipad <a href="test-results/16_Jan_2018_06_52_PM/img/Component_1dtk8ctlx4sc253670.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds: Wait time out for click on ipad to be visible
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12361', ip: '192.168.38.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then I should see list of ipad products</div><div  class="teststep"><span class="teststep-label">T </span>When I select first product</div><div  class="teststep"><span class="teststep-label">T </span>Then I should see product detail page</div><div  class="teststep"><span class="teststep-label">T </span>When I add the product to cart</div><div  class="teststep"><span class="teststep-label">T </span>Then I should see the added product in cart</div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for click on ipad to be visible
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12361&apos;, ip: &apos;192.168.38.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at .Given When I click on ipad(scenarios/suite1.bdd:36)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:475)
+	at com.ass2.pages.Category.selectProduct_aroundBody2(Category.java:43)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.ass2.pages.Category.selectProduct(Category.java:42)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:169)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:221)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1545077099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1545077099'><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for click on ipad to be visible
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12361&apos;, ip: &apos;192.168.38.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at .Given When I click on ipad(scenarios/suite1.bdd:36)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForVisible(QAFExtendedWebElement.java:475)
+	at com.ass2.pages.Category.selectProduct_aroundBody2(Category.java:43)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.ass2.pages.Category.selectProduct(Category.java:42)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:169)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:221)
+</pre></div></td>
+<td>30</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Data Driven()'><b>Data Driven</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Data Driven)<br>Test method: XML Data Driven<br>Parameters: {categoryname=Electronics, subcategoryname=Apple, productname=iPad, productindex=0}<br/>
+<a href="#Output-777341499" onClick='toggleBox("Output-777341499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777341499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777341499">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I launch flipkart app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I open Electronics from main menu</div><div  class="warn"><span class="warn-label">W </span>Then I should see main menu expanded :: Not Found.</div><div  class="teststep"><span class="teststep-label">T </span>When I select ${subcategoryname} from ${categoryname}</div><div  class="teststep"><span class="teststep-label">T </span>Then I should see all items under ${subcategoryname}</div></div><br/>
+</div>
+</td>
+<td><div><pre>com.qmetry.qaf.automation.step.StepNotFoundException: Then I should see main menu expanded@scenarios/suite1.bdd#25 TestStep implementation not found. 
+ Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
+	at .Then I should see main menu expanded(scenarios/suite1.bdd:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace777341499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace777341499'><pre>com.qmetry.qaf.automation.step.StepNotFoundException: Then I should see main menu expanded@scenarios/suite1.bdd#25 TestStep implementation not found. 
+ Please provide implementation or ensure &apos;step.provider.pkg&apos; property value includes appropriate package.
+	at .Then I should see main menu expanded(scenarios/suite1.bdd:25)
+</pre></div></td>
+<td>16</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

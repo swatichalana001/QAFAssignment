@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Scenario2",
+        "groups": [],
+        "lineNo": 33,
+        "name": "Component",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "Component",
+        "sign": "scenarios.suite1.bdd.Component()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1515737022105,
+      "duration": 40890,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

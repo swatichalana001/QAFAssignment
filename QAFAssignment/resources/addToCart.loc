@@ -1,0 +1,2 @@
+btn.cart.addtocartpage = {\"locator\":\"xpath=//button[text()='ADD TO CART']\",\"desc\":\"click on add to cart\"}
+title.selectedproduct.addtocartpage = {\"locator\":\"xpath=//html/head/title\"}
